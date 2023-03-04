@@ -20,6 +20,7 @@ public class ClientStAd {
 		Set<Student> students = dm.sortData(stud);
 		for (Student student : students) {
 			System.out.println(student);
+			System.out.println(student);
 		}
 		System.out.println("\n" + "Validate Date : ");
 		Set<Student> s = dm.validateData(students);
